@@ -7,6 +7,7 @@ Feature: Basic Searching
     Given a web browser is on the search engine page
     When the search phrase "aristophanes" is entered
     Then results for "aristophanes" are shown
+    And  I write a text
 
   @web @chrome @duckduckgo
   Scenario: Simple search with DuckDuckGo
