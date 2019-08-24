@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class MakeSearch implements En {
+public class stepsdef implements En {
     private WebDriver driver;
     private GooglePage searchPage;
     private NewPage newpage;
@@ -18,7 +18,7 @@ public class MakeSearch implements En {
     // Warning: Make sure the timeouts for hooks using a web driver are zero
 
     // NOTE: picocontainer injects SharedContext
-    public MakeSearch(SharedContext sharedContext) {
+    public stepsdef(SharedContext sharedContext) {
         this.sharedContext = sharedContext;
 
         Before(new String[]{"@web"}, 0, 1, (Scenario scenario) -> {
