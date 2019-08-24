@@ -1,8 +1,6 @@
 package learnmake.automation.stepdefs;
 
 import learnmake.automation.SharedContext;
-import learnmake.automation.pages.AbstractPage;
-import learnmake.automation.pages.DuckDuckGoPage;
 import learnmake.automation.pages.GooglePage;
 import cucumber.api.Scenario;
 import cucumber.api.java8.En;
@@ -13,7 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MakeSearch implements En {
     private WebDriver driver;
-    private AbstractPage searchPage;
+    private GooglePage searchPage;
     private NewPage newpage;
     private SharedContext sharedContext;
 
@@ -37,9 +35,7 @@ public class MakeSearch implements En {
             searchPage = new GooglePage(driver);
             newpage = new NewPage(driver);
         });
-        Before(new String[]{"@duckduckgo"}, 0, 10, (Scenario scenario) -> {
-            searchPage = new DuckDuckGoPage(driver);
-        });
+
         After(new String[]{"@web"}, (Scenario scenario) -> {
             this.sharedContext.tearDown();
         });
