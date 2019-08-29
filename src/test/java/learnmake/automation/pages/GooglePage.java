@@ -23,6 +23,7 @@ public class GooglePage extends AbstractPage {
         WebElement searchField = driverWait(10).until(ExpectedConditions.elementToBeClickable(BY_SEARCH_FIELD));
         searchField.sendKeys(phrase);
         searchField.submit();
+
     }
 
     public boolean pageTitleContains(String phrase) {

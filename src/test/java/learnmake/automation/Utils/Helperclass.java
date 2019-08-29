@@ -1,11 +1,18 @@
 package learnmake.automation.Utils;
 
-public class Helperclass {
+import learnmake.automation.pages.AbstractPage;
+import org.openqa.selenium.WebDriver;
 
-   // private Helperclass (){
+public class Helperclass extends AbstractPage {
 
-   // }
-    public  void proba (String nome){
+
+
+    public Helperclass(WebDriver driver) {
+        super(driver);
+    }
+
+
+    public static void proba (String nome){
 
         System.out.println("clase helper"+ nome);
     }
