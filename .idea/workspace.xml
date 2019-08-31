@@ -4,15 +4,14 @@
     <list default="true" id="e6aecedf-4451-4fd4-af68-c273b4502754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/GooglePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/NewPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/SharedContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/SharedContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/Smoke.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/Smoke.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/GooglePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/NewPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/NewPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/NewPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/TinderStartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/TinderStartPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/stepdefs/stepsdef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/stepdefs/stepsdef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/tinder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/tinder.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,54 +23,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="303">
+              <caret line="196" column="86" selection-start-line="196" selection-start-column="86" selection-end-line="196" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#10547#10548#0" expanded="true" />
+                <element signature="e#10596#10597#0" expanded="true" />
+                <element signature="e#11704#11705#0" expanded="true" />
+                <element signature="e#11778#11779#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1279#1280#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/WebElement.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
+            <state relative-caret-position="105">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -79,11 +62,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+            <state relative-caret-position="467">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomeTinderPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -99,6 +115,7 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>incognit</find>
       <find>inco</find>
       <find>in</find>
     </findStrings>
@@ -118,11 +135,12 @@
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/NewPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/GooglePage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java" />
-        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomeTinderPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java" />
       </list>
     </option>
   </component>
@@ -194,15 +212,6 @@
               <item name="Seleniumtest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="using-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Seleniumtest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -220,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567236335229" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567243887167" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -334,34 +343,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 21m 08s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 10h 58m 52s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 24m 02s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 07m 34s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 25m 33s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 11m 23s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 26m 53s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 15m 47s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 27m 20s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 17m 28s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 42m 01s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 25m 20s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 42m 20s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 26m 32s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 44m 03s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 27m 19s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.30 at 20h 45m 22s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 27m 30s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__tinder - 2019.08.31 at 09h 11m 44s.xml">
+    <history-entry file="Feature__tinder - 2019.08.31 at 11h 28m 16s.xml">
       <configuration name="Feature: tinder" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -376,6 +385,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2936508" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -404,24 +414,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/3.0.2/cucumber-core-3.0.2.jar!/cucumber/api/Scenario.class">
@@ -465,10 +457,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="467">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="196" column="86" selection-start-line="196" selection-start-column="86" selection-end-line="196" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10547#10548#0" expanded="true" />
+            <element signature="e#10596#10597#0" expanded="true" />
+            <element signature="e#11704#11705#0" expanded="true" />
+            <element signature="e#11778#11779#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="62" column="43" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomeTinderPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -477,41 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="408">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

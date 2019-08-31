@@ -1,6 +1,7 @@
 package learnmake.automation.stepdefs;
 
 import learnmake.automation.SharedContext;
+import learnmake.automation.pages.HomeTinderPage;
 import learnmake.automation.pages.TinderStartPage;
 import cucumber.api.Scenario;
 import cucumber.api.java8.En;
@@ -14,6 +15,7 @@ public class stepsdef implements En {
     private TinderStartPage tinderStartPage;
     private LoginPage loginPage;
     private SharedContext sharedContext;
+    private HomeTinderPage homeTinderPage;
 
     // Warning: Make sure the timeouts for hooks using a web driver are zero
 
@@ -34,22 +36,31 @@ public class stepsdef implements En {
         Before(new String[]{"@Tinder"}, 0, 10, (Scenario scenario) -> {
             tinderStartPage = new TinderStartPage(driver);
             loginPage = new LoginPage(driver);
+            homeTinderPage = new HomeTinderPage(driver);
+
         });
 
         After(new String[]{"@web"}, (Scenario scenario) -> {
             this.sharedContext.tearDown();
         });
 
-        
-        And("^I write a text$", () -> {
-            loginPage.writetext();
-        });
+
         Given("^I enter in the app and  register with facebook$", () -> {
             tinderStartPage.navigateToHomePage();
             tinderStartPage.enterToFacebook();
         });
-        When("^I write <email> and <password>$", (Str) -> {
+        When("^I write (.*) and (.*)$", (String email, String password) -> {
 
+            loginPage.inputMailandPassword(email,password);
+
+        });
+        Then("^I press I like Button$", () -> {
+
+
+            homeTinderPage.pressTinderButton();
+        });
+        And("^I accept geolocalization$", () -> {
+            tinderStartPage.allowGeolocalization();
         });
 
 

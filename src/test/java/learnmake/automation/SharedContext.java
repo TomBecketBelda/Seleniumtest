@@ -192,8 +192,9 @@ public class SharedContext {
             browserOptions.setCapability("dom.max_chrome_script_run_time" , "99");
             browserOptions.setCapability("dom.max_script_run_time" , "99");
             browserOptions.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.DISMISS);
-            //browserOptions.addArguments("incognito");
+            browserOptions.addArguments("incognito");
             browserOptions.setHeadless( isHeadless() );
+            browserOptions.addArguments("--disable-notifications"); // inserted by tom
 
             browserDriver = new ChromeDriver(browserOptions);
         }

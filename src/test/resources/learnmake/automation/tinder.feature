@@ -6,13 +6,14 @@ Feature: Tinder trap
   Scenario Outline: I want to try tinder
     Given I enter in the app and  register with facebook
     When I write <email> and <password>
-    #Then results for "aristophanes" are shown
-    #And  I write a text
+    And  I accept geolocalization
+    Then I press I like Button
+
 
 
     Examples:
 
-    |email |password |
+    |email                 |password  |
     |tomasbecket@gmail.com | Tbelda78*|
 
 
