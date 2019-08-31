@@ -1,18 +1,18 @@
 package learnmake.automation.stepdefs;
 
 import learnmake.automation.SharedContext;
-import learnmake.automation.pages.GooglePage;
+import learnmake.automation.pages.TinderStartPage;
 import cucumber.api.Scenario;
 import cucumber.api.java8.En;
-import learnmake.automation.pages.NewPage;
+import learnmake.automation.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class stepsdef implements En {
     private WebDriver driver;
-    private GooglePage searchPage;
-    private NewPage newpage;
+    private TinderStartPage tinderStartPage;
+    private LoginPage loginPage;
     private SharedContext sharedContext;
 
     // Warning: Make sure the timeouts for hooks using a web driver are zero
@@ -31,26 +31,27 @@ public class stepsdef implements En {
         Before(new String[]{"@web", "@firefox"}, 0, 1, (Scenario scenario) -> {
             driver = this.sharedContext.getDriver("firefox");
         });
-        Before(new String[]{"@google"}, 0, 10, (Scenario scenario) -> {
-            searchPage = new GooglePage(driver);
-            newpage = new NewPage(driver);
+        Before(new String[]{"@Tinder"}, 0, 10, (Scenario scenario) -> {
+            tinderStartPage = new TinderStartPage(driver);
+            loginPage = new LoginPage(driver);
         });
 
         After(new String[]{"@web"}, (Scenario scenario) -> {
             this.sharedContext.tearDown();
         });
 
-        Given("^a web browser is on the search engine page$", () -> {
-            searchPage.navigateToHomePage();
-        });
-        When("^the search phrase \"([^\"]*)\" is entered$", (String phrase) -> {
-            searchPage.enterSearchPhrase(phrase);
-        });
-        Then("^results for \"([^\"]*)\" are shown$", (String phrase) -> {
-            assertThat(searchPage.pageTitleContains(phrase)).isTrue();
-        });
+        
         And("^I write a text$", () -> {
-            newpage.writetext();
+            loginPage.writetext();
         });
+        Given("^I enter in the app and  register with facebook$", () -> {
+            tinderStartPage.navigateToHomePage();
+            tinderStartPage.enterToFacebook();
+        });
+        When("^I write <email> and <password>$", (Str) -> {
+
+        });
+
+
     }
 }

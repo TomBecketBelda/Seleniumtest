@@ -8,12 +8,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class NewPage extends AbstractPage {
+public class LoginPage extends AbstractPage {
 
     @FindBy(name = "q")
     private WebElement selectFieldTom;
 
-    public NewPage(WebDriver driver) {
+    public LoginPage(WebDriver driver) {
         super(driver);
     }
 
@@ -26,6 +26,8 @@ public class NewPage extends AbstractPage {
 
         Helperclass.proba("new");
     }
+
+    public void inputMailandPassword(){}
 
 
 }

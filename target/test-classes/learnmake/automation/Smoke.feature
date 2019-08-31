@@ -9,3 +9,32 @@ Feature: Basic Searching
     Then results for "aristophanes" are shown
     And  I write a text
 
+  @web @chrome @google
+  Scenario: test1
+    Given : yii
+
+
+  Scenario: Simple seach with Google
+    Given a web browser is on the search engine page
+    When the search phrase "aristophanes" is entered
+    Then results for "aristophanes" are shown
+    And  I write a text
+
+
+
+
+
+  @web @chrome @google
+  Scenario Outline: I spend all my likes
+    Given: I launch the app
+    Then: I login facebook email<email> and password <password>
+    When: I spend all my clicks
+
+    Examples:
+      | name                 | password|
+    |tomasbecket@gmail.com | Tbelda78*|
+
+
+
+
+

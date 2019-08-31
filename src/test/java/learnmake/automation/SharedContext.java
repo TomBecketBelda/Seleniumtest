@@ -192,7 +192,7 @@ public class SharedContext {
             browserOptions.setCapability("dom.max_chrome_script_run_time" , "99");
             browserOptions.setCapability("dom.max_script_run_time" , "99");
             browserOptions.setUnhandledPromptBehaviour(UnexpectedAlertBehaviour.DISMISS);
-            browserOptions.addArguments("incognito");
+            //browserOptions.addArguments("incognito");
             browserOptions.setHeadless( isHeadless() );
 
             browserDriver = new ChromeDriver(browserOptions);
@@ -285,8 +285,7 @@ public class SharedContext {
     public WebDriverWait getWebDriverWait() {
         return getWebDriverWait(Browser.firefox.name(), "default");
     }
-    public WebDriverWait getWebDriverWait(String withBrowser) {
-        return getWebDriverWait(withBrowser, "default");
+    public WebDriverWait getWebDriverWait(String withBrowser) { return getWebDriverWait(withBrowser, "default");
     }
     public WebDriverWait getWebDriverWait(String withBrowser, String whichType) {
 
