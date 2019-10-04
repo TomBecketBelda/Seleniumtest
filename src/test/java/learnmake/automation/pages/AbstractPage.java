@@ -18,9 +18,7 @@ public abstract class AbstractPage {
         return driver;
     }
 
-    protected WebDriverWait driverWait(long timeoutSeconds) {
-        return new WebDriverWait(driver, timeoutSeconds);
-    }
+
 
 
 }

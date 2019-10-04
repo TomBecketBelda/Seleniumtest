@@ -1,8 +1,9 @@
 package learnmake.automation.stepdefs;
 
 import learnmake.automation.SharedContext;
-import learnmake.automation.pages.HomeTinderPage;
-import learnmake.automation.pages.TinderStartPage;
+import learnmake.automation.pages.HomePage;
+import learnmake.automation.pages.SubcategoryPage;
+import learnmake.automation.pages.VardagsrumPage;
 import cucumber.api.Scenario;
 import cucumber.api.java8.En;
 import learnmake.automation.pages.LoginPage;
@@ -12,10 +13,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class stepsdef implements En {
     private WebDriver driver;
-    private TinderStartPage tinderStartPage;
+    private VardagsrumPage vardagsrumPage;
     private LoginPage loginPage;
     private SharedContext sharedContext;
-    private HomeTinderPage homeTinderPage;
+    private HomePage homePage;
+    private SubcategoryPage subcategoryPage;
 
     // Warning: Make sure the timeouts for hooks using a web driver are zero
 
@@ -33,10 +35,11 @@ public class stepsdef implements En {
         Before(new String[]{"@web", "@firefox"}, 0, 1, (Scenario scenario) -> {
             driver = this.sharedContext.getDriver("firefox");
         });
-        Before(new String[]{"@Tinder"}, 0, 10, (Scenario scenario) -> {
-            tinderStartPage = new TinderStartPage(driver);
+        Before(new String[]{"@xxxLutz"}, 0, 10, (Scenario scenario) -> {
+            vardagsrumPage = new VardagsrumPage(driver);
             loginPage = new LoginPage(driver);
-            homeTinderPage = new HomeTinderPage(driver);
+            homePage = new HomePage(driver);
+            subcategoryPage = new SubcategoryPage(driver);
 
         });
 
@@ -45,22 +48,18 @@ public class stepsdef implements En {
         });
 
 
-        Given("^I enter in the app and  register with facebook$", () -> {
-            tinderStartPage.navigateToHomePage();
-            tinderStartPage.enterToFacebook();
+        Given("^I enter in the app with sweden language", () -> {
+            vardagsrumPage.navigateToHomePage();
         });
-        When("^I write (.*) and (.*)$", (String email, String password) -> {
 
-            loginPage.inputMailandPassword(email,password);
-
+        When("^I select the (.*) category$", (String position) -> {
+            vardagsrumPage.selectCategory(position);
         });
-        Then("^I press I like Button$", () -> {
-
-
-            homeTinderPage.pressTinderButton();
+        And("^I accept cookie$", () -> {
+            homePage.acceptCookie();
         });
-        And("^I accept geolocalization$", () -> {
-            tinderStartPage.allowGeolocalization();
+        Then("^I check I can click in the first Button$", () -> {
+            subcategoryPage.clickFirstElement();
         });
 
 
