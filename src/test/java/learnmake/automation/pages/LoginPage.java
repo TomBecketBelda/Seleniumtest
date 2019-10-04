@@ -37,6 +37,7 @@ public class LoginPage extends AbstractPage {
         passwordButton.sendKeys(password);
         loginButton.click();
         getDriver().switchTo().window((String) Handles.toArray()[0]);
+        Helperclass.proba("home");
 
 
 

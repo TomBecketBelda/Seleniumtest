@@ -7,7 +7,7 @@ Feature: Tinder trap
     Given I enter in the app and  register with facebook
     When I write <email> and <password>
     And  I accept geolocalization
-    Then I press I like Button
+    #Then I press I like Button
 
 
 
