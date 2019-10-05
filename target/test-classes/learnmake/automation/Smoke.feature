@@ -1,38 +1,18 @@
-Feature: Basic Searching
-  As a web surfer,
-  I want to search using different search engines.
 
-  @web @chrome @google
-  Scenario: Simple search with Google
-    Given a web browser is on the search engine page
-    When the search phrase "aristophanes" is entered
-    Then results for "aristophanes" are shown
-    And  I write a text
+Feature: Work in  progress ( NOT TO USE )
 
-  @web @chrome @google
-  Scenario: test1
-    Given : yii
-
-
-  Scenario: Simple seach with Google
-    Given a web browser is on the search engine page
-    When the search phrase "aristophanes" is entered
-    Then results for "aristophanes" are shown
-    And  I write a text
+  @web @chrome @xxxLutz
+  Scenario: I check one criteria element and then I remove that criteria filter
+    Given I enter in the app with sweden language
+    And I accept cookie
+    When I check the the first element of article's list
+    And I click the  show more criteria submenu
+    And I click best price check box
+    And I check if the first article has changed
+    And I checkout first tag label.remove all
+    Then I check if the first article is equal as no filters status
 
 
-
-
-
-  @web @chrome @google
-  Scenario Outline: I spend all my likes
-    Given: I launch the app
-    Then: I login facebook email<email> and password <password>
-    When: I spend all my clicks
-
-    Examples:
-      | name                 | password|
-    |tomasbecket@gmail.com | Tbelda78*|
 
 
 

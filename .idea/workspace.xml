@@ -3,17 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="e6aecedf-4451-4fd4-af68-c273b4502754" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomeTinderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/PopupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxLutz.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxlutz.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/AbstractPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/AbstractPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/HomeTinderPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/TinderStartPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxLutz.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxLutz.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/Smoke.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/Smoke.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/SubcategoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/SubcategoryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/VardagsrumPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/pages/VardagsrumPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/stepdefs/stepsdef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/stepdefs/stepsdef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/tinder.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/learnmake/automation/xxxLutz.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/learnmake/automation/xxxLutz.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,152 +25,121 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="362">
-                  <caret line="249" column="29" lean-forward="true" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="66" selection-start-line="66" selection-end-line="66" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1089#1090#0" expanded="true" />
-                    <element signature="e#1118#1119#0" expanded="true" />
-                    <element signature="e#1158#1159#0" expanded="true" />
-                    <element signature="e#1214#1215#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="41" selection-start-line="41" selection-end-line="41" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/Utils/Helperclass.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="307">
-                  <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/AbstractPage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomePage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="16" selection-start-line="16" selection-end-line="16" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#504#505#0" expanded="true" />
-                    <element signature="e#543#544#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxLutz.feature">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#173#174#0" expanded="true" />
-                    <element signature="e#202#203#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="63" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#508#509#0" expanded="true" />
-                    <element signature="e#537#538#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3360">
+              <caret line="249" column="29" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2381#2382#0" expanded="true" />
+                <element signature="e#2410#2411#0" expanded="true" />
+                <element signature="e#1939#1940#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#5531#5532#0" expanded="true" />
+                <element signature="e#5656#5657#0" expanded="true" />
+                <element signature="e#5697#5698#0" expanded="true" />
+                <element signature="e#6005#6006#0" expanded="true" />
+                <element signature="e#6043#6044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/Utils/Helperclass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="64" column="60" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/AbstractPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/PopupPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxLutz.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -198,7 +169,6 @@
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/Utils/Helperclass.java" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/NewPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/GooglePage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomeTinderPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/TinderStartPage.java" />
@@ -206,18 +176,20 @@
         <option value="$PROJECT_DIR$/src/test/resources/learnmake/automation/tinder.feature" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/StartPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/AbstractPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java" />
         <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/PopupPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxLutz.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2098" />
-    <option name="y" value="84" />
-    <option name="width" value="1847" />
+    <option name="x" value="2030" />
+    <option name="y" value="85" />
+    <option name="width" value="1961" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -226,7 +198,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,15 +273,21 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="using-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seleniumtest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570217676907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570289149593" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -440,37 +417,45 @@
       <option name="presentableId" value="Default" />
       <updated>1561190475028</updated>
     </task>
+    <task id="LOCAL-00001" summary="first test done">
+      <created>1570218502651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570218502651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 20h 52m 46s.xml">
+    <history-entry file="Feature__Smoke - 2019.10.05 at 16h 15m 16s.xml">
+      <configuration name="Feature: Smoke" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Smoke - 2019.10.05 at 16h 27m 33s.xml">
+      <configuration name="Feature: Smoke" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Smoke - 2019.10.05 at 16h 29m 35s.xml">
+      <configuration name="Feature: Smoke" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Smoke - 2019.10.05 at 16h 35m 02s.xml">
+      <configuration name="Feature: Smoke" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Smoke - 2019.10.05 at 16h 38m 41s.xml">
+      <configuration name="Feature: Smoke" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Smoke - 2019.10.05 at 16h 39m 45s.xml">
+      <configuration name="Feature: Smoke" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Smoke - 2019.10.05 at 16h 48m 31s.xml">
+      <configuration name="Feature: Smoke" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Smoke - 2019.10.05 at 16h 50m 01s.xml">
+      <configuration name="Feature: Smoke" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__xxxLutz - 2019.10.05 at 17h 12m 19s.xml">
       <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 02m 25s.xml">
-      <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 02m 39s.xml">
-      <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 03m 15s.xml">
-      <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 06m 47s.xml">
-      <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 18m 39s.xml">
-      <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 22m 05s.xml">
-      <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 25m 10s.xml">
-      <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 27m 50s.xml">
-      <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__xxxLutz - 2019.10.04 at 21h 31m 03s.xml">
+    <history-entry file="Feature__xxxLutz - 2019.10.05 at 17h 22m 19s.xml">
       <configuration name="Feature: xxxLutz" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -484,10 +469,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2098" y="84" width="1847" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="2030" y="85" width="1961" height="1027" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2797784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26836893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -495,16 +479,16 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4024123" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294539" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34429824" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39838853" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3276634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -514,6 +498,50 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26836893" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32855865" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3291536" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3276634" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first test done" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java</url>
+          <line>172</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/3.0.2/cucumber-core-3.0.2.jar!/cucumber/api/Scenario.class">
@@ -544,30 +572,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="3360">
+          <caret line="249" column="29" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxLutz.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/Utils/Helperclass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="240">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/Utils/Helperclass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="585">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -584,20 +612,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/SharedContext.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/PopupPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="249" column="29" lean-forward="true" selection-start-line="249" selection-start-column="29" selection-end-line="249" selection-end-column="29" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/Smoke.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/stepdefs/stepsdef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        <state relative-caret-position="445">
+          <caret line="64" column="60" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -606,46 +641,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/VardagsrumPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="30">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#2381#2382#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#5531#5532#0" expanded="true" />
+            <element signature="e#5656#5657#0" expanded="true" />
+            <element signature="e#5697#5698#0" expanded="true" />
+            <element signature="e#6005#6006#0" expanded="true" />
+            <element signature="e#6043#6044#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/learnmake/automation/xxxLutz.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="191">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/learnmake/automation/pages/SubcategoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
