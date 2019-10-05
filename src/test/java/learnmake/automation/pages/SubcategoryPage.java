@@ -18,9 +18,10 @@ public class SubcategoryPage extends AbstractPage {
     }
 
     public void clickFirstElement() {
-        WebDriverWait wait = new WebDriverWait(getDriver(), 3);
-        wait.until(ExpectedConditions.visibilityOf(firstElementButton));
+
         try {
+            WebDriverWait wait = new WebDriverWait(getDriver(), 3);
+            wait.until(ExpectedConditions.visibilityOf(firstElementButton));
             firstElementButton.click();
         }
         catch(org.openqa.selenium.StaleElementReferenceException ex)
